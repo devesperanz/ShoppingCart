@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+.navbar{
+    background: #525252;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.header-logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;  
+    color: #fff  
+}
+.header-logo:hover{
+    text-decoration: none;
+    color: #fff
+}
+.navbar li{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;  
+}

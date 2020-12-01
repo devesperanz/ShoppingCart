@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+.content-view {
+  display: flex;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.left img {
+  width: 300px;
+}
+.right {
+  margin-top: 40px;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 200px;
+  width: 60%;
+}
+.right h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.right p {
+  font-size: 20px;
+}
+.right .bottom {
+  margin-top: 50px;
+}
+.right .bottom p {
+  width: 90%;
+}
+.right .category {
+  font-style: italic;
+}
+.btn-group {
+  border: 2px solid grey;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}
+.btn-group button,
+.btn-group span {
+  border: none;
+  width: 60px;
+  height: 46px;
+  background: transparent;
+}
+.btn-group button .icon {
+  color: gray;
+}
+.btn-group span {
+  padding-top: 5px;
+  color: gray;
+  font-size: 20px;
+}
+.add-cart {
+  background: linear-gradient(to left, skyblue, pink);
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+@media (max-width: 998px) {
+  .content-view {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .right .bottom p {
+    width: 100%;
+  }
+  .right {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
