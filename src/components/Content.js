@@ -9,7 +9,7 @@ function Content() {
 
   useEffect(() => {
     dispatch(getItems());
-  }, []);
+  });
 
   const addToCart = item => {
     dispatch(addToCarts(item));
@@ -31,9 +31,9 @@ function Content() {
                   </li>
 
                   <li onClick={() => addToCart(item)}>
-                    <a data-tip='Add to Cart'>
+                    <Link to={``} data-tip='Add to Cart'>
                       <i className='fa fa-shopping-cart'></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

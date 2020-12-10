@@ -10,7 +10,7 @@ function View({ match: { params } }) {
 
   useEffect(() => {
     dispatch(getItem(parseInt(params.id)));
-  }, []);
+  });
 
   useEffect(() => {
     setQuantity(item.quantity);
