@@ -10,7 +10,7 @@ function Checkout() {
               <h3 className='title'>Billing Details</h3>
               <div className='form-row'>
                 <div className='form-group col-md-6'>
-                  <label for='inputEmail4'>Firstname</label>
+                  <label htmlFor='inputEmail4'>Firstname</label>
                   <input
                     type='text'
                     className='form-control'
@@ -19,7 +19,7 @@ function Checkout() {
                   />
                 </div>
                 <div className='form-group col-md-6'>
-                  <label for='inputEmail4'>Lastname</label>
+                  <label htmlFor='inputEmail4'>Lastname</label>
                   <input
                     type='text'
                     className='form-control'
@@ -28,17 +28,17 @@ function Checkout() {
                   />
                 </div>
                 <div className='form-group col-md-6'>
-                  <label for='inputEmail4'>Email</label>
+                  <label htmlFor='inputEmail4'>Email</label>
                   <input
                     type='email'
                     className='form-control'
-                    value='Phone'
+                    defaultValue='Phone'
                     id='inputEmail4'
                     placeholder='Email'
                   />
                 </div>
                 <div className='form-group col-md-6'>
-                  <label for='inputPassword4'>Phone</label>
+                  <label htmlFor='inputPassword4'>Phone</label>
                   <input
                     type='Phone'
                     className='form-control'
@@ -48,7 +48,7 @@ function Checkout() {
                 </div>
               </div>
               <div className='form-group'>
-                <label for='inputAddress'>Address</label>
+                <label htmlFor='inputAddress'>Address</label>
                 <input
                   type='text'
                   className='form-control'
@@ -61,7 +61,7 @@ function Checkout() {
                 <h3 className='title'>Credit Card Details</h3>
                 <div className='row'>
                   <div className='form-group col-sm-7'>
-                    <label for='card-holder'>Card Holder</label>
+                    <label htmlFor='card-holder'>Card Holder</label>
                     <input
                       id='card-holder'
                       type='text'
@@ -72,7 +72,7 @@ function Checkout() {
                     />
                   </div>
                   <div className='form-group col-sm-5'>
-                    <label for=''>Expiration Date</label>
+                    <label htmlFor=''>Expiration Date</label>
                     <div className='input-group expiration-date'>
                       <input
                         type='text'
@@ -92,7 +92,7 @@ function Checkout() {
                     </div>
                   </div>
                   <div className='form-group col-sm-8'>
-                    <label for='card-number'>Card Number</label>
+                    <label htmlFor='card-number'>Card Number</label>
                     <input
                       id='card-number'
                       type='text'
@@ -103,7 +103,7 @@ function Checkout() {
                     />
                   </div>
                   <div className='form-group col-sm-4'>
-                    <label for='cvc'>CVC</label>
+                    <label htmlFor='cvc'>CVC</label>
                     <input
                       id='cvc'
                       type='text'
